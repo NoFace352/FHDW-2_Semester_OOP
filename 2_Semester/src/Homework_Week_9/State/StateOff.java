@@ -2,15 +2,15 @@ package Homework_Week_9.State;
 
 public class StateOff implements State {
     @Override
-    public void handlePressEvent(FlashLight f) {
+    public void handlePressEvent(FlashLight flashLight) {
         // 1. Was ist nächster State von f?
-        f.setCurrentState(new StateLow());
+        flashLight.setCurrentState(new StateLow());
         // 2. Seiteneffekte aufrufen
-        f.getBulb().turnOn(1);
+        flashLight.getBulb().turnOn(1);
     }
 
     @Override
-    public void handleHoldEvent(FlashLight f) {
+    public void handleHoldEvent(FlashLight flashLight) {
         // nichts
     }
 }

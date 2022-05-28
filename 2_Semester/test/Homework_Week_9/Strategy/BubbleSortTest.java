@@ -5,9 +5,12 @@ import org.junit.jupiter.api.Test;
 import java.util.Arrays;
 import java.util.List;
 
-import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.*;
 
 class BubbleSortTest {
+    Kunde kundeA = new Kunde("Arnold", "Schwarzenegger", 420);
+    Kunde kundeB = new Kunde("Hans", "Juergen", 10);
+    Kunde kundeC = new Kunde("Chuck", "Norris", 1);
 
     @Test
     void intBubbleSortTestIntegerAscending() {
@@ -34,10 +37,6 @@ class BubbleSortTest {
 
     @Test
     void sortByNamesAscending() {
-        Kunde kundeA = new Kunde("Arnold", "Schwarzenegger", 420);
-        Kunde kundeB = new Kunde("Hans", "Juergen", 10);
-        Kunde kundeC = new Kunde("Chuck", "Norris", 01);
-
         BubbleSort bubbleSort = new BubbleSort(
                 (first, second) -> {
                     String nameA = ((Kunde) first).getName();
@@ -54,10 +53,6 @@ class BubbleSortTest {
 
     @Test
     void sortByNachnamenAscending() {
-        Kunde kundeA = new Kunde("Arnold", "Schwarzenegger", 420);
-        Kunde kundeB = new Kunde("Hans", "Juergen", 10);
-        Kunde kundeC = new Kunde("Chuck", "Norris", 01);
-
         BubbleSort bubbleSort = new BubbleSort(
                 (first, second) -> {
                     String nachnameA = ((Kunde) first).getNachname();
@@ -73,10 +68,6 @@ class BubbleSortTest {
 
     @Test
     void sortByKundennummerAscending() {
-        Kunde kundeA = new Kunde("Arnold", "Schwarzenegger", 420);
-        Kunde kundeB = new Kunde("Hans", "Juergen", 10);
-        Kunde kundeC = new Kunde("Chuck", "Norris", 01);
-
         BubbleSort bubbleSort = new BubbleSort(
                 (first, second) -> {
                     int kundennummerA = ((Kunde) first).getKundennummer();

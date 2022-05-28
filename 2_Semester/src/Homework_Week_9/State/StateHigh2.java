@@ -1,6 +1,6 @@
 package Homework_Week_9.State;
 
-public class StateHigh implements State {
+public class StateHigh2 implements State{
     @Override
     public void handlePressEvent(FlashLight flashLight) {
         flashLight.setCurrentState(new StateOff());
@@ -9,7 +9,7 @@ public class StateHigh implements State {
 
     @Override
     public void handleHoldEvent(FlashLight flashLight) {
-        flashLight.setCurrentState(new StateHigh2());
-        flashLight.getBulb().turnOn(2);
+        flashLight.setCurrentState(new StateLow());
+        flashLight.getBulb().turnOn(3);
     }
 }

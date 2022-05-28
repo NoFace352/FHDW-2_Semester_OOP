@@ -1,0 +1,12 @@
+@startuml
+!theme plain
+FlashLight -> Bulb: create
+Bulb --> FlashLight: bulb
+StateOff -> StateLow: hold
+StateLow -> StateHigh: hold
+StateLow -> StateOff: press
+StateHigh -> StateHigh2: hold
+StateHigh -> StateOff: press
+StateHigh2 -> StateLow: hold
+StateHigh2 -> StateOff: press
+@enduml

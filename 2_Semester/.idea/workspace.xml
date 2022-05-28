@@ -1,11 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f4f7b7c7-3659-4ced-aceb-b4248b2bc534" name="Changes" comment="" />
+    <list default="true" id="f4f7b7c7-3659-4ced-aceb-b4248b2bc534" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Homework_Week_9/State/Sequenzdiagramm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Homework_Week_9/State/StateHigh2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lernen/DesignPatterns/src/Strategy/CreditCard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lernen/DesignPatterns/src/Strategy/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lernen/DesignPatterns/src/Strategy/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lernen/DesignPatterns/src/Strategy/PayByCreditCard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lernen/DesignPatterns/src/Strategy/PayByPayPal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lernen/DesignPatterns/src/Strategy/PayStrategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/OOP_Semester2/Homework_Week_9/Strategy/BubbleSortTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/OOP_Semester2/Homework_Week_9/Strategy/BubbleSortTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Homework_Week_9/State/State.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Homework_Week_9/State/State.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Homework_Week_9/State/StateHigh.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Homework_Week_9/State/StateHigh.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Homework_Week_9/State/StateLow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Homework_Week_9/State/StateLow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Homework_Week_9/State/StateOff.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Homework_Week_9/State/StateOff.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/Homework_Week_9/Strategy/BubbleSortTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/Homework_Week_9/Strategy/BubbleSortTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lernen/DesignPatterns/out/production/DesignPatterns/Composite/Pseudocode" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -14,19 +38,21 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="29laMJJdU3uotuT3lCTfgBvNzc9" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "I:/Coding/Git/FHDW/2_Semester"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;I:/Coding/Git/FHDW/2_Semester&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="BubbleSortTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="OOP_Semester2" />
@@ -57,7 +83,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1653690076804</updated>
-      <workItem from="1653690077924" duration="108000" />
+      <workItem from="1653690077924" duration="178000" />
+      <workItem from="1653720735915" duration="293000" />
+      <workItem from="1653722698375" duration="4329000" />
     </task>
     <servers />
   </component>
