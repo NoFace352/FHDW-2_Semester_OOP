@@ -6,7 +6,7 @@ public class StateOff implements State {
         // 1. Was ist nächster State von f?
         flashLight.setCurrentState(new StateLow());
         // 2. Seiteneffekte aufrufen
-        flashLight.getBulb().turnOn(1);
+        flashLight.getBulb().turnOff();
     }
 
     @Override

@@ -15,9 +15,9 @@ class FlashLightTest {
         f.hold();
         assertTrue(f.getCurrentState() instanceof StateHigh);
         f.hold();
-        assertTrue(f.getCurrentState() instanceof StateLow);
+        assertTrue(f.getCurrentState() instanceof StateHigh2);
         f.hold();
-        assertTrue(f.getCurrentState() instanceof StateHigh);
+        assertTrue(f.getCurrentState() instanceof StateLow);
         f.press();
         assertTrue(f.getCurrentState() instanceof StateOff);
     }

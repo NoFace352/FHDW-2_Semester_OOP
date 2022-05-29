@@ -24,6 +24,7 @@ class BubbleSortTest {
         List<Object> a = Arrays.asList(1, 3, 2);
         List<Object> sortedList = bubbleSort.sort(a);
         assertEquals(Arrays.asList(1, 2, 3), sortedList);
+
         bubbleSort.setComparatorStrategy(
                 (first, second) -> {
                     int f = (int) first;
@@ -78,5 +79,6 @@ class BubbleSortTest {
         List<Object> sortedList = bubbleSort.sort(kunden);
         assertEquals(Arrays.asList(kundeC, kundeB, kundeA), sortedList);
     }
+
 
 }

@@ -12,8 +12,8 @@ public class Kunde {
     }
 
     @Override
-    public String toString(){
-        return name + ", " + nachname + " - " + kundennummer;
+    public String toString() {
+        return name + ", " + nachname + " [" + kundennummer + "]";
     }
 
     public String getName() {
