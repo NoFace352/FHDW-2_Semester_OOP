@@ -3,24 +3,24 @@ package Homework_Week_9.Strategy;
 public class Kunde {
 
     private final String name;
-    private final String sirname;
+    private final String surname;
     private final int iD;
 
     public String getName() {
         return name;
     }
 
-    public String getSirname() {
-        return sirname;
+    public String getSurname() {
+        return surname;
     }
 
     public int getiD() {
         return iD;
     }
 
-    public Kunde(String name, String sirname, int iD) {
+    public Kunde(String name, String surname, int iD) {
         this.name = name;
-        this.sirname = sirname;
+        this.surname = surname;
         this.iD = iD;
     }
 
@@ -28,7 +28,7 @@ public class Kunde {
     public String toString() {
         return "Kunde{" +
                 "name='" + name + '\'' +
-                ", sirname='" + sirname + '\'' +
+                ", sirname='" + surname + '\'' +
                 ", iD=" + iD +
                 '}';
     }

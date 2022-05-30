@@ -2,24 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eccbe893-708c-4838-a1f6-0984fc12f417" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/discord.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Homework_Week_9/Strategy/BubbleSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Homework_Week_9/Strategy/BubbleSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Homework_Week_9/Strategy/ComparatorStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Homework_Week_9/Strategy/ComparatorStrategy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Homework_Week_9/Strategy/IntegerAscendingComparatorStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Homework_Week_9/Strategy/IntegerAscendingComparatorStrategy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Homework_Week_9/Strategy/IntegerDescendingComparatorStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Homework_Week_9/Strategy/IntegerDescendingComparatorStrategy.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Homework_Week_9/Strategy/Kunde.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Homework_Week_9/Strategy/Kunde.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Homework_Week_9/Strategy/KundennummerAscendingComparatorStrategy.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Homework_Week_9/Strategy/NachnameAscendingComparatorStrategy.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Homework_Week_9/Strategy/NameAscendingComparatorStrategy.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/test/Homework_Week_9/Strategy/BubbleSortTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/Homework_Week_9/Strategy/BubbleSortTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />

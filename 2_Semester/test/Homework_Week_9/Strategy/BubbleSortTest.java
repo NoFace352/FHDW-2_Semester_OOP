@@ -75,7 +75,7 @@ class BubbleSortTest {
         BubbleSort bSort = new BubbleSort(
                 (Object o, Object o2) -> {
                     if (o instanceof Kunde && o2 instanceof Kunde) {
-                        return ((Kunde) o).getSirname().compareTo(((Kunde) o2).getSirname()) <= 0;
+                        return ((Kunde) o).getSurname().compareTo(((Kunde) o2).getSurname()) <= 0;
                     }
                     return false;
                 }
@@ -83,11 +83,11 @@ class BubbleSortTest {
         List<Kunde> unsortedKunde = Arrays.asList(k1, k4, k3, k2);
         unsortedKunde.sort(
                 (Kunde o1, Kunde o2) -> {
-                    if (o1.getSirname().compareTo(o2.getSirname()) < 0) {
+                    if (o1.getSurname().compareTo(o2.getSurname()) < 0) {
                         return -1;
-                    } else if (o1.getSirname().compareTo(o2.getSirname()) == 0) {
+                    } else if (o1.getSurname().compareTo(o2.getSurname()) == 0) {
                         return 0;
-                    } else if (o1.getSirname().compareTo(o2.getSirname()) > 0) {
+                    } else if (o1.getSurname().compareTo(o2.getSurname()) > 0) {
                         return 1;
                     }
                     throw new Error("Lucas mag Joel nicht Meer");
