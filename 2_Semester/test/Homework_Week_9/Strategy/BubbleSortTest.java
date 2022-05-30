@@ -8,9 +8,12 @@ import java.util.List;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 class BubbleSortTest {
-    Kunde kundeA = new Kunde("Arnold", "Schwarzenegger", 3);
-    Kunde kundeB = new Kunde("Hans", "Juergen", 2);
-    Kunde kundeC = new Kunde("Chuck", "Norris", 1);
+
+    Kunde k1 = new Kunde("Peter", "Maller", 1);
+    Kunde k2 = new Kunde("Peters", "Mbller", 2);
+    Kunde k3 = new Kunde("Getrud", "Mcller", 3);
+    Kunde k4 = new Kunde("Getruds", "Mdnkelhups", 4);
+    List<Object> unsortedList = Arrays.asList(k1, k4, k3, k2);
 
     @Test
     void intBubbleSortTestIntegerAscending() {
@@ -22,9 +25,9 @@ class BubbleSortTest {
                 }
         );
         List<Object> a = Arrays.asList(1, 3, 2);
+//        List<Object> a = Arrays.asList("1", "3", "2");
         List<Object> sortedList = bubbleSort.sort(a);
         assertEquals(Arrays.asList(1, 2, 3), sortedList);
-
         bubbleSort.setComparatorStrategy(
                 (first, second) -> {
                     int f = (int) first;
@@ -37,81 +40,64 @@ class BubbleSortTest {
     }
 
     @Test
-    void sortByNamesAscending() {
-        BubbleSort bubbleSort = new BubbleSort(
-                (first, second) -> {
-                    String nameA = ((Kunde) first).getName();
-                    String nameB = ((Kunde) second).getName();
-                    int result = nameA.compareTo(nameB);
+    void kundenNachIdSortieren() {
+        BubbleSort bSort = new BubbleSort(new IdComparator());
+        List<Kunde> unsortedKunde = Arrays.asList(k1, k4, k3, k2);
+        unsortedKunde.sort(new IdComparator());
+        assertEquals(Arrays.asList(k1, k2, k3, k4), unsortedKunde);
 
-                    return result < 0;
+        List<Object> sort = bSort.sort(unsortedList);
+        assertEquals(Arrays.asList(k1, k2, k3, k4), sort);
+    }
+
+    @Test
+    void kundenNachVornameSortieren() {
+        BubbleSort bSort = new BubbleSort(new NameComparator());
+        List<Kunde> unsortedKunde = Arrays.asList(k1, k4, k3, k2);
+        unsortedKunde.sort(new NameComparator());
+        assertEquals(Arrays.asList(k3, k4, k1, k2), unsortedKunde);
+
+        List<Object> sort = bSort.sort(unsortedList);
+        assertEquals(Arrays.asList(k3, k4, k1, k2), sort);
+    }
+
+    @Test
+    void kundenNachVornameReversedSortieren() {
+        BubbleSort bSort = new BubbleSort(new NameComparator());
+        bSort.reversed();
+
+        List<Object> sort = bSort.sort(unsortedList);
+        assertEquals(Arrays.asList(k2, k1, k4, k3), sort);
+    }
+
+    @Test
+    void kundenNachNachnameSortieren() {
+        BubbleSort bSort = new BubbleSort(
+                (Object o, Object o2) -> {
+                    if (o instanceof Kunde && o2 instanceof Kunde) {
+                        return ((Kunde) o).getSirname().compareTo(((Kunde) o2).getSirname()) <= 0;
+                    }
+                    return false;
+                }
+        );
+        List<Kunde> unsortedKunde = Arrays.asList(k1, k4, k3, k2);
+        unsortedKunde.sort(
+                (Kunde o1, Kunde o2) -> {
+                    if (o1.getSirname().compareTo(o2.getSirname()) < 0) {
+                        return -1;
+                    } else if (o1.getSirname().compareTo(o2.getSirname()) == 0) {
+                        return 0;
+                    } else if (o1.getSirname().compareTo(o2.getSirname()) > 0) {
+                        return 1;
+                    }
+                    throw new Error("Lucas mag Joel nicht Meer");
                 });
-        List<Object> kunden = Arrays.asList(kundeA, kundeB, kundeC);
-        List<Object> sortedList = bubbleSort.sort(kunden);
-        assertEquals(Arrays.asList(kundeA, kundeC, kundeB), sortedList);
-    }
+        assertEquals(Arrays.asList(k1, k2, k3, k4), unsortedKunde);
 
 
-    @Test
-    void sortByNachnamenAscending() {
-        BubbleSort bubbleSort = new BubbleSort(
-                (first, second) -> {
-                    String nachnameA = ((Kunde) first).getNachname();
-                    String nachnameB = ((Kunde) second).getNachname();
-                    int result = nachnameA.compareTo(nachnameB);
+        List<Object> sort = bSort.sort(unsortedList);
 
-                    return result < 0;
-                });
-        List<Object> kunden = Arrays.asList(kundeA, kundeB, kundeC);
-        List<Object> sortedList = bubbleSort.sort(kunden);
-        assertEquals(Arrays.asList(kundeB, kundeC, kundeA), sortedList);
-    }
-
-    @Test
-    void sortByKundennummerAscending() {
-        BubbleSort bubbleSort = new BubbleSort(
-                (first, second) -> {
-                    int kundennummerA = ((Kunde) first).getKundennummer();
-                    int kundennummerB = ((Kunde) second).getKundennummer();
-                    return kundennummerA < kundennummerB;
-                });
-        List<Object> kunden = Arrays.asList(kundeA, kundeB, kundeC);
-        List<Object> sortedList = bubbleSort.sort(kunden);
-        assertEquals(Arrays.asList(kundeC, kundeB, kundeA), sortedList);
-    }
-
-
-    // ----- Comp -----
-    @Test
-    void sortByNachnamenAscendingComp() {
-        BubbleSort bubbleSort = new BubbleSort(new NachnameAscendingComparatorStrategy());
-        List<Object> kunden = Arrays.asList(kundeA, kundeB, kundeC);
-        List<Object> sortedList = bubbleSort.sort(kunden);
-        assertEquals(Arrays.asList(kundeB, kundeC, kundeA), sortedList);
-    }
-
-    @Test
-    void sortByNameAscendingComp() {
-        BubbleSort bubbleSort = new BubbleSort(new NameAscendingComparatorStrategy());
-        List<Object> kunden = Arrays.asList(kundeA, kundeB, kundeC);
-        List<Object> sortedList = bubbleSort.sort(kunden);
-        assertEquals(Arrays.asList(kundeA, kundeC, kundeB), sortedList);
-    }
-
-    /*
-    @Test
-    void sortByKundennummerAscendingComp() {
-        BubbleSort bubbleSort = new BubbleSort(new KundennummerAscendingComparatorStrategy());
-        List<Object> kunden = Arrays.asList(kundeA, kundeB, kundeC);
-        List<Object> sortedList = bubbleSort.sort(kunden);
-        assertEquals(Arrays.asList(kundeA, kundeC, kundeB), sortedList);
-    }
-    weird
-
-     */
-
-    @Test
-    void kundeMitIdUndSort(){
-        List<Object> kunden = Arrays.asList(kundeA, kundeB, kundeC);
+        assertEquals(Arrays.asList(k1, k2, k3, k4), sort);
     }
 }
+

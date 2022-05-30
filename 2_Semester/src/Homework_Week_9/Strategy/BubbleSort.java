@@ -1,15 +1,15 @@
 package Homework_Week_9.Strategy;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
-import java.util.function.BiFunction;
 
 public class BubbleSort {
 
     private ComparatorStrategy comparatorStrategy;
+    private boolean reverse;
 
-    //                  (first, second) -> bool
-    public BubbleSort(ComparatorStrategy comparatorStrategy) {
+    public BubbleSort(ComparatorStrategy comparatorStrategy){
         this.comparatorStrategy = comparatorStrategy;
     }
 
@@ -19,17 +19,25 @@ public class BubbleSort {
 
     public List<Object> sort(List<Object> inputList) {
         List<Object> a = new ArrayList<>(inputList);
-        for (int lastIndex = a.size() - 1; lastIndex >= 0; lastIndex--) {
-            for (int i = 0; i < lastIndex; i++) {
-                if (comparatorStrategy.isFirstBeforeSecond(a.get(i + 1), a.get(i))) {
-                    swap(a, i, i + 1);
+        for(int lastIndex = a.size()-1; lastIndex >= 0; lastIndex--){
+            for(int i = 0; i < lastIndex; i++){
+                if(comparatorStrategy.isFirstBeforeSecond(a.get(i+1), a.get(i))) {
+                    swap(a, i, i+1);
                 }
             }
+        }
+
+        if (reverse) {
+            Collections.reverse(a);
         }
         return a;
     }
 
-    public void swap(List<Object> a, int i, int j) {
+    public void reversed() {
+        this.reverse = true;
+    }
+
+    public void swap( List<Object> a, int i, int j) {
         Object temp = a.get(i);
         a.set(i, a.get(j));
         a.set(j, temp);

@@ -1,17 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f4f7b7c7-3659-4ced-aceb-b4248b2bc534" name="Changes" comment="">
+    <list default="true" id="eccbe893-708c-4838-a1f6-0984fc12f417" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/discord.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/OOP_Semester2/Homework_Week_9/Strategy/BubbleSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/OOP_Semester2/Homework_Week_9/Strategy/BubbleSort.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/OOP_Semester2/Homework_Week_9/Strategy/Kunde.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/OOP_Semester2/Homework_Week_9/Strategy/Kunde.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/OOP_Semester2/Homework_Week_9/Strategy/KundennummerAscendingComparatorStrategy.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/OOP_Semester2/Homework_Week_9/Strategy/KundennummerAscendingComparatorStrategy.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/OOP_Semester2/Homework_Week_9/Strategy/BubbleSortTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/OOP_Semester2/Homework_Week_9/Strategy/BubbleSortTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Homework_Week_9/Strategy/BubbleSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Homework_Week_9/Strategy/BubbleSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Homework_Week_9/Strategy/KundennummerAscendingComparatorStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Homework_Week_9/Strategy/KundennummerAscendingComparatorStrategy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Homework_Week_9/Strategy/KundennummerDescendingComparatorStrategy.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Homework_Week_9/Strategy/NachnameDescendingComparatorStrategy.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Homework_Week_9/Strategy/NamDescendingComparatorStrategy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Homework_Week_9/Strategy/ComparatorStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Homework_Week_9/Strategy/ComparatorStrategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Homework_Week_9/Strategy/IntegerAscendingComparatorStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Homework_Week_9/Strategy/IntegerAscendingComparatorStrategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Homework_Week_9/Strategy/IntegerDescendingComparatorStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Homework_Week_9/Strategy/IntegerDescendingComparatorStrategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Homework_Week_9/Strategy/Kunde.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Homework_Week_9/Strategy/Kunde.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Homework_Week_9/Strategy/KundennummerAscendingComparatorStrategy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Homework_Week_9/Strategy/NachnameAscendingComparatorStrategy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Homework_Week_9/Strategy/NameAscendingComparatorStrategy.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/test/Homework_Week_9/Strategy/BubbleSortTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/Homework_Week_9/Strategy/BubbleSortTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -19,23 +27,11 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Class" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="MarkdownSettingsMigration">
-    <option name="stateVersion" value="1" />
-  </component>
-  <component name="ProjectId" id="29laMJJdU3uotuT3lCTfgBvNzc9" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <ConfirmationsSetting value="2" id="Add" />
-  </component>
+  <component name="ProjectId" id="29t8IttHYvLtm42bTuacs7X9C67" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -48,7 +44,7 @@
     &quot;last_opened_file_path&quot;: &quot;I:/Coding/Git/FHDW/2_Semester&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.BubbleSortTest">
+  <component name="RunManager">
     <configuration name="BubbleSortTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="OOP_Semester2" />
       <extension name="coverage">
@@ -64,94 +60,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BubbleSortTest.sortByKundennummerAscending" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="OOP_Semester2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Homework_Week_9.Strategy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Homework_Week_9.Strategy" />
-      <option name="MAIN_CLASS_NAME" value="Homework_Week_9.Strategy.BubbleSortTest" />
-      <option name="METHOD_NAME" value="sortByKundennummerAscending" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BubbleSortTest.sortByKundennummerAscendingComp" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="OOP_Semester2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Homework_Week_9.Strategy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Homework_Week_9.Strategy" />
-      <option name="MAIN_CLASS_NAME" value="Homework_Week_9.Strategy.BubbleSortTest" />
-      <option name="METHOD_NAME" value="sortByKundennummerAscendingComp" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BubbleSortTest.sortByNachnamenAscendingComp" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="OOP_Semester2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Homework_Week_9.Strategy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Homework_Week_9.Strategy" />
-      <option name="MAIN_CLASS_NAME" value="Homework_Week_9.Strategy.BubbleSortTest" />
-      <option name="METHOD_NAME" value="sortByNachnamenAscendingComp" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BubbleSortTest.sortByNameAscendingComp" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="OOP_Semester2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Homework_Week_9.Strategy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Homework_Week_9.Strategy" />
-      <option name="MAIN_CLASS_NAME" value="Homework_Week_9.Strategy.BubbleSortTest" />
-      <option name="METHOD_NAME" value="sortByNameAscendingComp" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.BubbleSortTest" />
-        <item itemvalue="JUnit.BubbleSortTest.sortByKundennummerAscending" />
-        <item itemvalue="JUnit.BubbleSortTest.sortByNachnamenAscendingComp" />
-        <item itemvalue="JUnit.BubbleSortTest.sortByNameAscendingComp" />
-        <item itemvalue="JUnit.BubbleSortTest.sortByKundennummerAscendingComp" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="f4f7b7c7-3659-4ced-aceb-b4248b2bc534" name="Changes" comment="" />
-      <created>1653690076804</created>
+      <changelist id="eccbe893-708c-4838-a1f6-0984fc12f417" name="Changes" comment="" />
+      <created>1653920944770</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1653690076804</updated>
-      <workItem from="1653690077924" duration="178000" />
-      <workItem from="1653720735915" duration="293000" />
-      <workItem from="1653722698375" duration="4928000" />
-      <workItem from="1653754746069" duration="3494000" />
-      <workItem from="1653845165494" duration="1938000" />
-      <workItem from="1653850955503" duration="3361000" />
+      <updated>1653920944770</updated>
+      <workItem from="1653920945982" duration="22000" />
+      <workItem from="1653920982282" duration="34000" />
+      <workItem from="1653921028167" duration="5000" />
     </task>
     <servers />
   </component>
