@@ -5,11 +5,11 @@ import org.junit.jupiter.api.Test;
 import java.util.Arrays;
 import java.util.List;
 
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 class BubbleSortTest {
-    Kunde kundeA = new Kunde("Arnold", "Schwarzenegger", 420);
-    Kunde kundeB = new Kunde("Hans", "Juergen", 10);
+    Kunde kundeA = new Kunde("Arnold", "Schwarzenegger", 3);
+    Kunde kundeB = new Kunde("Hans", "Juergen", 2);
     Kunde kundeC = new Kunde("Chuck", "Norris", 1);
 
     @Test
@@ -81,4 +81,37 @@ class BubbleSortTest {
     }
 
 
+    // ----- Comp -----
+    @Test
+    void sortByNachnamenAscendingComp() {
+        BubbleSort bubbleSort = new BubbleSort(new NachnameAscendingComparatorStrategy());
+        List<Object> kunden = Arrays.asList(kundeA, kundeB, kundeC);
+        List<Object> sortedList = bubbleSort.sort(kunden);
+        assertEquals(Arrays.asList(kundeB, kundeC, kundeA), sortedList);
+    }
+
+    @Test
+    void sortByNameAscendingComp() {
+        BubbleSort bubbleSort = new BubbleSort(new NameAscendingComparatorStrategy());
+        List<Object> kunden = Arrays.asList(kundeA, kundeB, kundeC);
+        List<Object> sortedList = bubbleSort.sort(kunden);
+        assertEquals(Arrays.asList(kundeA, kundeC, kundeB), sortedList);
+    }
+
+    /*
+    @Test
+    void sortByKundennummerAscendingComp() {
+        BubbleSort bubbleSort = new BubbleSort(new KundennummerAscendingComparatorStrategy());
+        List<Object> kunden = Arrays.asList(kundeA, kundeB, kundeC);
+        List<Object> sortedList = bubbleSort.sort(kunden);
+        assertEquals(Arrays.asList(kundeA, kundeC, kundeB), sortedList);
+    }
+    weird
+
+     */
+
+    @Test
+    void kundeMitIdUndSort(){
+        List<Object> kunden = Arrays.asList(kundeA, kundeB, kundeC);
+    }
 }

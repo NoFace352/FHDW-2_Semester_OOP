@@ -6,14 +6,14 @@ import java.util.function.BiFunction;
 
 public class BubbleSort {
 
-    private BiFunction<Object, Object, Boolean> comparatorStrategy;
+    private ComparatorStrategy comparatorStrategy;
 
     //                  (first, second) -> bool
-    public BubbleSort(BiFunction<Object, Object, Boolean> comparatorStrategy) {
+    public BubbleSort(ComparatorStrategy comparatorStrategy) {
         this.comparatorStrategy = comparatorStrategy;
     }
 
-    public void setComparatorStrategy(BiFunction<Object, Object, Boolean> comparatorStrategy) {
+    public void setComparatorStrategy(ComparatorStrategy comparatorStrategy) {
         this.comparatorStrategy = comparatorStrategy;
     }
 
@@ -21,7 +21,7 @@ public class BubbleSort {
         List<Object> a = new ArrayList<>(inputList);
         for (int lastIndex = a.size() - 1; lastIndex >= 0; lastIndex--) {
             for (int i = 0; i < lastIndex; i++) {
-                if (comparatorStrategy.apply(a.get(i + 1), a.get(i))) {
+                if (comparatorStrategy.isFirstBeforeSecond(a.get(i + 1), a.get(i))) {
                     swap(a, i, i + 1);
                 }
             }

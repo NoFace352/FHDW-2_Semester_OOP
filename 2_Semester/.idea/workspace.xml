@@ -3,9 +3,15 @@
   <component name="ChangeListManager">
     <list default="true" id="f4f7b7c7-3659-4ced-aceb-b4248b2bc534" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Homework_Week_9/State/StateOff.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Homework_Week_9/State/StateOff.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Homework_Week_9/Strategy/Kunde.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Homework_Week_9/Strategy/Kunde.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/Homework_Week_9/State/FlashLightTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/Homework_Week_9/State/FlashLightTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/OOP_Semester2/Homework_Week_9/Strategy/BubbleSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/OOP_Semester2/Homework_Week_9/Strategy/BubbleSort.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/OOP_Semester2/Homework_Week_9/Strategy/Kunde.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/OOP_Semester2/Homework_Week_9/Strategy/Kunde.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/OOP_Semester2/Homework_Week_9/Strategy/KundennummerAscendingComparatorStrategy.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/OOP_Semester2/Homework_Week_9/Strategy/KundennummerAscendingComparatorStrategy.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/OOP_Semester2/Homework_Week_9/Strategy/BubbleSortTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/OOP_Semester2/Homework_Week_9/Strategy/BubbleSortTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Homework_Week_9/Strategy/BubbleSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Homework_Week_9/Strategy/BubbleSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Homework_Week_9/Strategy/KundennummerAscendingComparatorStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Homework_Week_9/Strategy/KundennummerAscendingComparatorStrategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Homework_Week_9/Strategy/KundennummerDescendingComparatorStrategy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Homework_Week_9/Strategy/NachnameDescendingComparatorStrategy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Homework_Week_9/Strategy/NamDescendingComparatorStrategy.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/test/Homework_Week_9/Strategy/BubbleSortTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/Homework_Week_9/Strategy/BubbleSortTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -42,7 +48,7 @@
     &quot;last_opened_file_path&quot;: &quot;I:/Coding/Git/FHDW/2_Semester&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.FlashLightTest.testOffLowHighLowHighOff">
+  <component name="RunManager" selected="JUnit.BubbleSortTest">
     <configuration name="BubbleSortTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="OOP_Semester2" />
       <extension name="coverage">
@@ -58,32 +64,65 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FlashLightTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BubbleSortTest.sortByKundennummerAscending" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="OOP_Semester2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Homework_Week_9.State.*" />
+          <option name="PATTERN" value="Homework_Week_9.Strategy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Homework_Week_9.State" />
-      <option name="MAIN_CLASS_NAME" value="Homework_Week_9.State.FlashLightTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="Homework_Week_9.Strategy" />
+      <option name="MAIN_CLASS_NAME" value="Homework_Week_9.Strategy.BubbleSortTest" />
+      <option name="METHOD_NAME" value="sortByKundennummerAscending" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FlashLightTest.testOffLowHighLowHighOff" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BubbleSortTest.sortByKundennummerAscendingComp" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="OOP_Semester2" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Homework_Week_9.State.*" />
+          <option name="PATTERN" value="Homework_Week_9.Strategy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="Homework_Week_9.State" />
-      <option name="MAIN_CLASS_NAME" value="Homework_Week_9.State.FlashLightTest" />
-      <option name="METHOD_NAME" value="testOffLowHighLowHighOff" />
+      <option name="PACKAGE_NAME" value="Homework_Week_9.Strategy" />
+      <option name="MAIN_CLASS_NAME" value="Homework_Week_9.Strategy.BubbleSortTest" />
+      <option name="METHOD_NAME" value="sortByKundennummerAscendingComp" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BubbleSortTest.sortByNachnamenAscendingComp" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="OOP_Semester2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Homework_Week_9.Strategy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Homework_Week_9.Strategy" />
+      <option name="MAIN_CLASS_NAME" value="Homework_Week_9.Strategy.BubbleSortTest" />
+      <option name="METHOD_NAME" value="sortByNachnamenAscendingComp" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BubbleSortTest.sortByNameAscendingComp" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="OOP_Semester2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Homework_Week_9.Strategy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Homework_Week_9.Strategy" />
+      <option name="MAIN_CLASS_NAME" value="Homework_Week_9.Strategy.BubbleSortTest" />
+      <option name="METHOD_NAME" value="sortByNameAscendingComp" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -91,9 +130,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.FlashLightTest.testOffLowHighLowHighOff" />
-        <item itemvalue="JUnit.FlashLightTest" />
         <item itemvalue="JUnit.BubbleSortTest" />
+        <item itemvalue="JUnit.BubbleSortTest.sortByKundennummerAscending" />
+        <item itemvalue="JUnit.BubbleSortTest.sortByNachnamenAscendingComp" />
+        <item itemvalue="JUnit.BubbleSortTest.sortByNameAscendingComp" />
+        <item itemvalue="JUnit.BubbleSortTest.sortByKundennummerAscendingComp" />
       </list>
     </recent_temporary>
   </component>
@@ -109,6 +150,8 @@
       <workItem from="1653720735915" duration="293000" />
       <workItem from="1653722698375" duration="4928000" />
       <workItem from="1653754746069" duration="3494000" />
+      <workItem from="1653845165494" duration="1938000" />
+      <workItem from="1653850955503" duration="3361000" />
     </task>
     <servers />
   </component>
