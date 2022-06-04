@@ -2,19 +2,38 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eccbe893-708c-4838-a1f6-0984fc12f417" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/Homework_Week_9/Strategy/Kunde.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Homework_Week_9/Strategy/Kunde.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/Homework_Week_9/Strategy/BubbleSortTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/Homework_Week_9/Strategy/BubbleSortTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lernen/Factory/BMW.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lernen/Factory/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lernen/Factory/CarFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lernen/Factory/Factory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lernen/Factory/Skoda.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/Lernen/Factory/CarFactoryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+        <option value="JUnit5 Test Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectId" id="29t8IttHYvLtm42bTuacs7X9C67" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -24,10 +43,20 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
     &quot;last_opened_file_path&quot;: &quot;I:/Coding/Git/FHDW/2_Semester&quot;
   }
 }</component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="Lernen.Factory" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.CarFactoryTest.mustafaMachtauto">
     <configuration name="BubbleSortTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="OOP_Semester2" />
       <extension name="coverage">
@@ -43,8 +72,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="CarFactoryTest.mustafaMachtauto" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="OOP_Semester2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Lernen.Factory.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="Lernen.Factory" />
+      <option name="MAIN_CLASS_NAME" value="Lernen.Factory.CarFactoryTest" />
+      <option name="METHOD_NAME" value="mustafaMachtauto" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CarFactoryTest.mustafaMachtauto" />
         <item itemvalue="JUnit.BubbleSortTest" />
       </list>
     </recent_temporary>
@@ -60,6 +106,12 @@
       <workItem from="1653920945982" duration="22000" />
       <workItem from="1653920982282" duration="34000" />
       <workItem from="1653921028167" duration="5000" />
+      <workItem from="1653921117698" duration="3545000" />
+      <workItem from="1653929216262" duration="399000" />
+      <workItem from="1654107464478" duration="843000" />
+      <workItem from="1654117925542" duration="16000" />
+      <workItem from="1654262587439" duration="2731000" />
+      <workItem from="1654361359003" duration="32000" />
     </task>
     <servers />
   </component>
