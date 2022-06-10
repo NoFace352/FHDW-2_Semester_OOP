@@ -2,12 +2,38 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eccbe893-708c-4838-a1f6-0984fc12f417" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Lernen/Factory/BMW.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lernen/Factory/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lernen/Factory/CarFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lernen/Factory/Factory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Lernen/Factory/Skoda.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/Lernen/Factory/CarFactoryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lernen/DesignPatternsExercise/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lernen/DesignPatternsExercise/.idea/discord.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lernen/DesignPatternsExercise/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lernen/DesignPatternsExercise/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lernen/DesignPatternsExercise/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lernen/DesignPatternsExercise/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lernen/DesignPatternsExercise/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lernen/DesignPatternsExercise/DesignPatternsExercise.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lernen/DesignPatternsExercise/src/cmpt377/designpat/telephone/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lernen/DesignPatternsExercise/src/cmpt377/designpat/telephone/Observer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lernen/DesignPatternsExercise/src/cmpt377/designpat/telephone/Subject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lernen/DesignPatternsExercise/src/cmpt377/designpat/telephone/task" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lernen/Oh baby dont hurt me/src/DesignPattern/Factory/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lernen/Oh baby dont hurt me/src/DesignPattern/Factory/FactoryPatternDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lernen/Oh baby dont hurt me/src/DesignPattern/Factory/Rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lernen/Oh baby dont hurt me/src/DesignPattern/Factory/Shape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lernen/Oh baby dont hurt me/src/DesignPattern/Factory/ShapeFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lernen/Oh baby dont hurt me/src/DesignPattern/Factory/Square.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lernen/Oh baby dont hurt me/src/DesignPattern/Observer/Abonnent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lernen/Oh baby dont hurt me/src/DesignPattern/Observer/FAZVerlag.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lernen/Oh baby dont hurt me/src/DesignPattern/Observer/FamilieFischer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lernen/Oh baby dont hurt me/src/DesignPattern/Observer/FamilieMeier.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lernen/Oh baby dont hurt me/src/DesignPattern/Observer/FirmaXY.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lernen/Oh baby dont hurt me/src/DesignPattern/Observer/Verlag.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lernen/Oh baby dont hurt me/src/DesignPattern/Observer/Zeitung.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lernen/Oh baby dont hurt me/src/DesignPattern/Observer/ZeitungsDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lernen/Oh baby dont hurt me/src/DesignPattern/State/LED.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lernen/Oh baby dont hurt me/src/DesignPattern/State/State.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lernen/Oh baby dont hurt me/src/DesignPattern/State/StateHigh.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lernen/Oh baby dont hurt me/src/DesignPattern/State/StateLow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lernen/Oh baby dont hurt me/src/DesignPattern/State/StateOff.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Lernen/Oh baby dont hurt me/src/DesignPattern/State/Taschenlampe.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -112,6 +138,9 @@
       <workItem from="1654117925542" duration="16000" />
       <workItem from="1654262587439" duration="2731000" />
       <workItem from="1654361359003" duration="32000" />
+      <workItem from="1654794565216" duration="609000" />
+      <workItem from="1654849832674" duration="164000" />
+      <workItem from="1654850084550" duration="8000" />
     </task>
     <servers />
   </component>

@@ -1,0 +1,6 @@
+In the model, define an interface for the observers.
+Have the model notify the observers whenever a new digit is entered for the phone number.
+Have the UI (the Screen class) create two observers:
+
+- The first observer prints the newest digit out to the screen
+- The second observer prints "Now dialing 12345678901..." out to the screen (where the number is the number the model has).
